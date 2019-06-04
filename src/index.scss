@@ -1,0 +1,138 @@
+$color: rgb(0, 3, 189);
+html {
+  background-color: black;
+}
+body {
+  background-color: white;
+  margin: 0 auto;
+  width: 8.5in;
+  height: 11in;
+  // border: black solid 1px;
+  padding: .25in;
+}
+section {
+  font-family: 'Chakra Petch', sans-serif;
+
+}
+header {
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  color: $color;
+}
+.sec-title {
+  font-size: 25px;
+  padding: 5px 0 0;
+  margin: 2px 0;
+}
+.top-div {
+  width: 100%;
+  display: flex;
+  div {
+    width: 60%;
+  }
+  .header {
+    .name {
+      font-size: 40px;
+      padding: 10px 0 5px;
+    }
+    .job {
+      font-size: 30px;
+      padding-bottom: 5px;
+
+
+    }
+  }
+  .objective {
+    border-top: 2px solid $color;
+
+    p {
+      margin: 5px 0 5px 2px;
+      font-size: 17px;
+    }
+  }
+}
+.contact {
+  width: 40%;
+  padding: 10px 15px;
+  margin: 0 0 0 10px;
+  ul{
+    padding: 0;
+    margin: 0;
+    li {
+      font-size: 20px;
+      padding: 7px 0 7px 16px;
+      list-style: none;
+      color: $color;
+      i {
+        text-align: center;
+        width: 25px;
+        font-size: 25px;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+}
+.skills {
+  border-top: 2px solid $color;
+
+  padding: 5px;
+  .skills-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    div {
+      font-size: 16px;
+      border: 1px $color solid;
+      border-radius: 5px;
+      margin: 6px;
+      padding: 6px;
+      font-weight: bold;
+    }
+  }
+}
+.experience {
+  border-top: 2px solid $color;
+  div {
+    header {
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .what {
+      width: 400px;
+    }
+    .where, .when {
+      width: 300px;
+    }
+  }
+  p {
+    margin: 0 0 20px 0;
+  }
+}
+.education {
+  border-top: 2px solid $color;
+
+  div {
+    margin: 10px 0 0 0;
+    display: flex;
+    span {
+      flex: 1;
+      header {
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        text-indent: 25px;
+        margin: 5px 0 0 0;
+      }
+    }
+  }
+}
+
+
