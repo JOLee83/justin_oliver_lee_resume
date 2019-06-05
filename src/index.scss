@@ -7,7 +7,6 @@ body {
   margin: 0 auto;
   width: 8.5in;
   height: 11in;
-  // border: black solid 1px;
   padding: .25in;
 }
 section {
@@ -40,12 +39,10 @@ header {
     .job {
       font-size: 30px;
       padding-bottom: 5px;
-
-
     }
   }
   .objective {
-    border-top: 2px solid $color;
+    border-top: 1px solid $color;
 
     p {
       margin: 5px 0 5px 2px;
@@ -78,7 +75,7 @@ header {
   }
 }
 .skills {
-  border-top: 2px solid $color;
+  border-top: 1px solid $color;
 
   padding: 5px;
   .skills-div {
@@ -96,7 +93,7 @@ header {
   }
 }
 .experience {
-  border-top: 2px solid $color;
+  border-top: 1px solid $color;
   div {
     header {
       display: flex;
@@ -116,7 +113,7 @@ header {
   }
 }
 .education {
-  border-top: 2px solid $color;
+  border-top: 1px solid $color;
 
   div {
     margin: 10px 0 0 0;
@@ -133,6 +130,16 @@ header {
       }
     }
   }
+}
+.back {
+  color: yellow;
+  background-color: black;
+  position: fixed;
+  opacity: .05;
+  font-size: 933px;
+  text-align: center;
+  top: 235px;
+  
 }
 
 
