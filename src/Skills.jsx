@@ -5,7 +5,15 @@ class Skills extends Component {
       <section className="skills">
         <header className="sec-title">Skills</header>
         <div className="skills-div">
-          <div>
+          <ul>
+            <li>Front-End and Back-End languages like HTML, CSS, JavaScript, C#, and SQL.</li>
+            <li>Front-End and Back-End frameworks like React, Gatsby, and .Net.</li>
+            <li>State and database management with Redux and Postgres.</li>
+            <li>Git for version control, familiar with RESTful and CRUD API architecture.</li>
+            <li>CSS preprocessors, libraries, and frameworks like SASS, LESS, Style Components, BootStrap, and Bulma.</li>
+            <li>Business tools and techniques like the Microsoft Office Suit along with Operations and Inventory Management.</li>
+          </ul>
+          {/* <div>
             HTML
           </div>
           <div>
@@ -79,7 +87,7 @@ class Skills extends Component {
           </div>
           <div>
             Inventory Management
-          </div>
+          </div>*/}
         </div>
       </section>
     );

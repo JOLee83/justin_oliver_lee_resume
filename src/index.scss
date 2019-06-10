@@ -29,7 +29,7 @@ header {
   width: 100%;
   display: flex;
   div {
-    width: 60%;
+    width: 65%;
   }
   .header {
     .name {
@@ -45,13 +45,13 @@ header {
     border-top: 1px solid $color;
 
     p {
-      margin: 5px 0 5px 2px;
+      margin: 5px 0 5px;
       font-size: 17px;
     }
   }
 }
 .contact {
-  width: 40%;
+  width: 35%;
   padding: 10px 15px;
   margin: 0 0 0 10px;
   ul{
@@ -79,9 +79,26 @@ header {
 
   padding: 5px;
   .skills-div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    ul {
+      padding: 0;
+      margin: 0 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        width: 40%;
+        margin: 0 5%;
+        list-style: none;
+        &::before {
+          content: "•";
+          font-weight: bolder;
+          color: $color;
+          display: inline-block; 
+          width: 16px;
+          margin-left: -16px;
+        }
+      }
+    }
+    
     div {
       font-size: 16px;
       border: 1px $color solid;

@@ -5,7 +5,7 @@ class Header extends Component {
       <section className="objective">
         <header className="sec-title">Objective</header>
         <p>
-          Seeking a position in Front-end or Full-stack Web Development where I can put what I have learned to use and continue to grow as a Developer. Along with ways to get involved and give back to the local developer community.
+          Seeking a position in web development where I use and expand my knowledge of front-end languages and frameworks; specifically Javascript and the React framework. Along with ways to organize and participate in events to learn from others and mentor those who are new in the local developer community.
       </p>
       </section>
     );
